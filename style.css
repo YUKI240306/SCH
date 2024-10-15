@@ -1,0 +1,138 @@
+body {padding: 0px; margin: 0px;}
+#header{
+ height: 15vh;
+ background-color: #a48ff2;
+ display: flex;
+}
+#header h1{
+ flex: 100%;
+ text-align: center;
+}
+#navigation{
+ height: 10vh;
+ background-color: #f28fc7;
+ display: flex;
+}
+#navigation a{
+ text-decoration: none;
+ margin: 5px;
+ padding: 5px;
+ flex: 33%;
+ background-color: white;
+ text-align: center;
+ font-size: 14pt;
+}
+#navigation a:hover{
+ background-color: pink;
+}
+#body{
+ background-color: #fff5d6;
+ height: 250vh;
+ display: block;
+ padding: 25px;
+}
+#body img{
+ display: flex;
+ width: 270px;
+ height: 200px;
+}
+#displayb p{
+ min-width: 100vw;
+ padding: 0px 25px 0px 25px;
+ font-size: 14pt;
+}
+#footer{
+ height: 30vh;
+ background-color: #a3bfff;
+}
+.gallery{
+ margin: 15px;
+ border: 1px solid #ccc;
+ float: left;
+ width: 300px;
+ padding: 15px;
+ background-color: rgba(200, 220, 220, 0.5);
+
+}
+.galerry:hover{
+  border: 1px solid #555;
+}
+.gallery img{
+ width: 20px;;
+ height: auto;
+}
+.opys{
+ padding: 15px;
+ text-align: center;
+}
+#footer p{
+ flex: 100%;
+ padding: 20px;
+ margin: auto;
+}
+#footer img{
+ float: left;
+ width: 50px;
+ height: 50px;
+ margin: auto;
+}
+table{
+ display: flex;
+}
+table tr:nth-child(1){
+ font-weight: bold;
+}
+td{
+ background-color: #8ecbde;
+ border: 1px solid black;
+ width: 300px;
+ height: 50px; 
+ text-align: center;
+}
+td:hover{
+ background-color: #f7d38f;
+}
+td img{
+ height: 20px;
+ width: 20px;
+}
+.contacts{
+ margin: 10px;
+ padding: 10px;
+ background-color: #f092fc;
+}
+.contacts img{
+ width: 20px;
+ height: 20px;
+}
+.contacts a{
+ text-decoration: none;
+ font-size: 26px;
+ color: #fcee92;
+ padding: 10px;
+}
+#body2{
+ background-color: #fff5d6;
+ height: 640vh;
+ display: block;
+ padding: 25px;
+}
+#body2 img{
+ display: flex;
+ width: 290px;
+ height: 220px;
+}
+#body2 div{
+ text-decoration: none;
+ margin: 5px;
+ padding: 5px;
+ flex: 33%;
+ background-color:  rgba(255, 0, 255, 0.2);
+ font-size: 14pt;
+}	
+#body2 div:hover{
+  background-color: rgba(245, 56, 76, 0.2);
+}
+#body2 h1{
+ color: red;
+}
